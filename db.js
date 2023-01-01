@@ -1,5 +1,5 @@
 const mongoose=require('mongoose')
-const mongoURL='mongodb://localhost:27017/firstdb'
+const mongoURL='mongodb://localhost:27017/LaptopStore'
 
 const connectToMong=()=>{
     mongoose.connect(mongoURL,()=>{

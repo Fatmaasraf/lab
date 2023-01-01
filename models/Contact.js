@@ -1,18 +1,18 @@
 const mongoose =require('mongoose')
 const {Schema} =mongoose
 
-const userSchema=new Schema({
+const contactSchema=new Schema({
 
-    A_Username:{
+    C_Name:{
         type:String
     },
    
-    A_Password:{
+    C_Email:{
         type:String
     },
-    A_AcountNumber:{
+    C_Message:{
         type:String
     }
 })
 
-module.exports=mongoose.model('User',userSchema)
+module.exports=mongoose.model('Contact',contactSchema)
